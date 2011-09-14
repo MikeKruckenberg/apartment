@@ -68,8 +68,8 @@ end
 
 Apartment.configure do |config|
   config.excluded_models = []
-  config.use_postgres_schemas = true
+  config.use_postgres_schemas = false
   config.database_names = []
   config.seed_after_create = false
-  config.prepend_environment = true
+  config.prepend_environment = false
 end
